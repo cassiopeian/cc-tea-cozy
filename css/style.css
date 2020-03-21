@@ -1,0 +1,112 @@
+/* FONTS */
+
+/* GLOBAL */
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(255, 245, 238);
+}
+body,
+header,
+#belly-band,
+.box,
+footer {
+    background-color: rgb(10, 3, 19);
+}
+h2 {
+    font-size: 1.375rem; /* 22px */
+    padding: 1.4rem 0 1rem 0;
+}
+h3 {
+    font-size: 1.25rem; /* 20px */
+    padding: 15px 0 20px 0;
+}
+h4 {
+    font-size: 1.125rem; /* 18px */
+    padding-bottom: 1.5em;
+}
+h5 {
+    font-size: 1.1rem; /* 17.6px */
+    padding: 25px 15px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid rgb(255, 245, 238);
+    z-index: 10;
+    width: 100%;
+}
+.logo {
+    height: 50px;
+    padding-right: 10px;
+}
+nav {
+    padding-right: 20px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+li a {
+    margin-left: 0.85rem;
+    padding-top: 0.2rem;
+    text-decoration: none;
+    color: rgb(235, 245, 247);
+}
+li a:hover {
+    color: #8ea097;
+    border-top: 2px solid #af044a;
+}
+
+/* MAIN */
+
+#hero-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    height: 700px;
+    width: 1200px;
+    background-image: url('../images/img-mission-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto 100px;
+}
+#belly-band {
+    width: 1200px;
+}
+#totm-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+#teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figure {
+    height: 200px;
+    width: 300px;
+    margin: 25px 16px;
+}
+.tea-pic {
+    width: 100%;
+    height: auto;
+}
+
+
+/* FOOTER */
