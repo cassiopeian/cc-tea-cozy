@@ -47,6 +47,7 @@ header {
     border-bottom: 1px solid rgb(255, 245, 238);
     z-index: 10;
     width: 100%;
+    box-shadow: 0 0.5px 8px rgb(49, 49, 48);
 }
 .logo {
     height: 50px;
@@ -68,8 +69,8 @@ li a {
     color: rgb(235, 245, 247);
 }
 li a:hover {
-    color: #8ea097;
-    border-top: 2px solid #af044a;
+    color: rgb(142, 160, 151);
+    border-top: 2px solid rgb(175, 4, 74);
 }
 
 /* MAIN */
@@ -80,11 +81,15 @@ li a:hover {
     position: relative;
     top: 70px;
     height: 700px;
-    width: 1200px;
     background-image: url('../images/img-mission-background.jpg');
+    margin: 0 auto 100px;
+}
+#hero-container,
+#locations-container {
+    width: 1200px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0 auto 100px;
+    opacity: 0.9;
 }
 #belly-band {
     width: 1200px;
@@ -101,12 +106,37 @@ li a:hover {
 figure {
     height: 200px;
     width: 300px;
-    margin: 25px 16px;
+    margin: 32px 16px;
 }
 .tea-pic {
     width: 100%;
     height: auto;
+    opacity: 0.9;
+}
+figcaption {
+    padding-top: 10px;
+}
+#locations-container {
+    height: 500px;
+    background-image: url('../images/img-locations-background.jpg');
+    margin: 70px auto;
+    padding-top: 50px;
+}
+#box-container {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width: 300px;
+    margin: 15px 40px;
+}
+p.address {
+    line-height: 2.5em;
 }
 
-
 /* FOOTER */
+
+#copyright {
+    text-align: left;
+    padding-left: 20px;
+}
